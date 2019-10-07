@@ -5,7 +5,6 @@ level: warning
 action:
   name: replace
 swap:
-  #"approximate(?:ly)?": about
   WorldPay: Worldpay
   Smartpay: SmartPay
   url: URL

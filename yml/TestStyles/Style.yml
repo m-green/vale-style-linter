@@ -2,6 +2,7 @@ extends: substitution
 message: "Use '%s' instead of '%s'."
 ignorecase: true
 level: warning
+nonword: true
 action:
   name: replace
 swap:
@@ -23,11 +24,11 @@ swap:
   don't: do not
   won't: will not
   can't: cannot
-  provider's (PSP): provider's (PSP's) # need to fix
+  'provider''s \(PSP\)': 'provider''s (PSPs)'
   they have: xxx have
   they've: xxx have
   they'll: xxx will
-  "with:": "by running:" # need to fix
+  'with\.': by running,
   maximum: no more than
   minimum: no less than
   be more than: no less than

@@ -1,6 +1,8 @@
 extends: existence
 message: "'%s' can be removed."
 ignorecase: true
+nonword: true
 level: suggestion
 tokens:
-  - external link # need to add square brackets
+  - '\[external link\]'
+  
