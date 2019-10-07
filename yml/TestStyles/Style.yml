@@ -1,0 +1,34 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+ignorecase: true
+level: warning
+action:
+  name: replace
+swap:
+  a user: your user
+  end user: your user
+  end users: your users
+  all of the: all the
+  format: data type
+  execute: carry out
+  conduct: run
+  in order to: to
+  details: information
+  via: through
+  requires that: requires xxx to
+  a HTTP: an HTTP
+  a HTML: an HTML
+  subsequently: then
+  will be: is
+  don't: do not
+  won't: will not
+  can't: cannot
+  provider's (PSP): provider's (PSP's) # need to fix
+  they have: xxx have
+  they've: xxx have
+  they'll: xxx will
+  "with:": "by running:" # need to fix
+  maximum: no more than
+  minimum: no less than
+  be more than: no less than
+  be less than: no more than

@@ -1,0 +1,12 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+ignorecase: false
+level: warning
+action:
+  name: replace
+swap:
+  #"approximate(?:ly)?": about
+  WorldPay: Worldpay
+  Smartpay: SmartPay
+  url: URL
+  Team: team

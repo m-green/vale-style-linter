@@ -1,0 +1,6 @@
+extends: existence
+message: "There are code blocks without a declared language."
+ignorecase: true
+level: warning
+tokens:
+  - ```\n

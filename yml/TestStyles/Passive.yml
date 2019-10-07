@@ -1,0 +1,7 @@
+extends: existence
+message: "'%s' may be passive voice. Use the active voice instead."
+ignorecase: true
+level: warning
+tokens:
+  - will be
+  - will not be

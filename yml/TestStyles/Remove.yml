@@ -1,0 +1,11 @@
+extends: existence
+message: "Consider rewriting to avoid '%s'."
+ignorecase: true
+level: suggestion
+tokens:
+  - so that
+  - the usual # because this can be subjective
+  - it
+  - they
+  - use these(.+)to # "use the x to..."
+  - this means # 'If you prefill fields, you can...'
