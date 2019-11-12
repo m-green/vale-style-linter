@@ -2,7 +2,7 @@ extends: substitution
 message: "Use '%s' instead of '%s'."
 ignorecase: true
 level: warning
-nonword: true
+nonword: false
 action:
   name: replace
 swap:
@@ -13,7 +13,7 @@ swap:
   format: data type
   execute: carry out
   conduct: run
-  in order to: to
+  #in order to: to
   details: information
   via: through
   requires that: requires xxx to
@@ -29,7 +29,7 @@ swap:
   they've: xxx have
   they'll: xxx will
   'with\.': by running,
-  maximum: no more than
-  minimum: no less than
-  be more than: no less than
-  be less than: no more than
+  #maximum: no more than
+  #minimum: no less than
+  #be more than: no less than
+  #be less than: no more than
